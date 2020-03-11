@@ -24,8 +24,8 @@ Packages to be installed: `conda install pandas`, `conda install seaborn`, `cond
 It is the beginning of my data science journey! What I'm doing on this notebook:
 - [x] Import dataset and process (handle missing values)
 - [x] Check for multicollinearity and remove extraneous variables
-- [-] Use Seaborn for visual investigation (barplot and pairplot)
-- [-] Split the data into training and testing sets (train_test_split)
+- [ ] Use Seaborn for visual investigation (barplot and pairplot)
+- [ ] Split the data into training and testing sets (train_test_split)
 - [ ] Apply the linear regression model used on the scikit-learn (LinearRegression)
 - [ ] Evaluate the model and predictions
 - [ ] Fit with new values (secret here)
