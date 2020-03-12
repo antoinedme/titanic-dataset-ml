@@ -19,7 +19,7 @@ This dataset describes the survival status of individual passengers on the Titan
 - `cabin`: Cabin number
 - `embarked`: Port of embarkation; C = Cherbourg, Q = Queenstown, S = Southampton
 
-## Where
+## Learning Steps
 Packages to be installed: `conda install pandas`, `conda install seaborn`, `conda install -c intel scikit-learn`
 It is the beginning of my data science journey! What I'm doing on this notebook:
 - [x] Import dataset and process (handle missing values)
@@ -32,4 +32,7 @@ It is the beginning of my data science journey! What I'm doing on this notebook:
 
 ![Cheers](https://i.kym-cdn.com/entries/icons/original/000/023/077/Screen_Shot_2017-05-26_at_2.10.30_PM.png)
 
-Antoine de Marassé
+The file is: https://github.com/antoinedme/titanic-dataset-ml/blob/master/Titanic-MachineLearning.ipynb
+
+thank you very much, 
+by Antoine de Marassé
