@@ -6,20 +6,8 @@ After leaving Southampton on 10 April 1912, Titanic called at Cherbourg in Franc
 
 ## Passengers dataset entries
 ![Passengers table](https://user-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,f_auto,h_2000,q_90,w_1200/107158/Screen_Shot_2015-08-03_at_1.57.45_AM_ibp1u8.png)   
-The dataset has 1309 entries. 
-This dataset describes the survival status of individual passengers on the Titanic. The dataset has 12 variables:
-- `name` (to be replaced by id)
-- `survived`: 0 = No, 1 = Yes.
-- `pclass`: Ticket class (socio-demographics status) 1 = 1st (Upper), 2 = 2nd (Middle), 3 = 3rd (Lower class)
-- Demographics: `Sex`, `Age` (if age is fractionnal if less than 1, if it is estimated, the form is xx.5)
-- `sibsp`: Number of siblings or spouses aboard the Titanic
-- `parch`: Number of parents or children aboard the Titanic
-- `ticket`: Passenger ticket number
-- `fare`: Passenger fare
-- `cabin`: Cabin number
-- `embarked`: Port of embarkation; C = Cherbourg, Q = Queenstown, S = Southampton
 
-![Cheers](https://i.kym-cdn.com/entries/icons/original/000/023/077/Screen_Shot_2017-05-26_at_2.10.30_PM.png)
+## I am preparing a presentation, for now have a look at the (still drafty) notebook:
 
 The file is: https://github.com/antoinedme/titanic-dataset-ml/blob/master/Titanic-MachineLearning.ipynb
 
