@@ -19,17 +19,6 @@ This dataset describes the survival status of individual passengers on the Titan
 - `cabin`: Cabin number
 - `embarked`: Port of embarkation; C = Cherbourg, Q = Queenstown, S = Southampton
 
-## Learning Steps
-Packages to be installed: `conda install pandas`, `conda install seaborn`, `conda install -c intel scikit-learn`
-It is the beginning of my data science journey! What I'm doing on this notebook:
-- [x] Import dataset and process (handle missing values)
-- [x] Check for multicollinearity and remove extraneous variables
-- [ ] Use Seaborn for visual investigation (barplot and pairplot)
-- [ ] Split the data into training and testing sets (train_test_split)
-- [ ] Apply the linear regression model used on the scikit-learn (LinearRegression)
-- [ ] Evaluate the model and predictions
-- [ ] Fit with new values (secret here)
-
 ![Cheers](https://i.kym-cdn.com/entries/icons/original/000/023/077/Screen_Shot_2017-05-26_at_2.10.30_PM.png)
 
 The file is: https://github.com/antoinedme/titanic-dataset-ml/blob/master/Titanic-MachineLearning.ipynb
