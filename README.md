@@ -29,16 +29,23 @@ In 1912, skilled shipyard workers who built Titanic earned £2 ($10) per week. U
 ## Analysing the data
 
 Survival probability: for women on 1st class is: 96,5% compared to men only 34,1% When we look at the 3rd class, the probability drops to 49,1% for women and 15,2% for men. 
+
 `exploratory.groupby(['sex_is_male','pclass'])['survived'].mean()`
+
 `graph = sns.catplot(x="sex_is_male", y="survived", hue="pclass", kind="bar", palette="muted", data=exploratory)`
+
 ![Survival rate accross classes per sex](https://seaborn.pydata.org/_images/categorical_36_0.png)
 Women and children first!
 
 ## Cleaning the data
 In this notebook, we won't use some of the variables such as `home.dest`, `embarked` or `cabin`. To do so we will drop:
+
 `titanic.drop(['name','body','boat','cabin','ticket','embarked','home.dest'],axis=1,inplace=True)`
+
 Then we will fill in the missing variables in `fare` (1 missing) and `age`(263 missing) using the median values:
+
 `titanic['fare'] = titanic.groupby('pclass')['fare'].apply(lambda x: x.fillna(x.median()))`
+
 `titanic['age'] = titanic.groupby('sex')['age'].apply(lambda x: x.fillna(x.median()))`
 
 ## Split the dataset for training and testing
