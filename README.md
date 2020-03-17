@@ -1,4 +1,4 @@
-# :passenger_ship: Titanic dataset discovery
+# Titanic dataset discovery
 Visit the notebook here: https://github.com/antoinedme/titanic-dataset-ml/blob/master/Titanic-MachineLearning.ipynb
 
 
