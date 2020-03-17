@@ -34,8 +34,10 @@ Survival probability: for women on 1st class is: 96,5% compared to men only 34,1
 
 `graph = sns.catplot(x="sex_is_male", y="survived", hue="pclass", kind="bar", palette="muted", data=exploratory)`
 
-![Survival rate accross classes per sex](https://seaborn.pydata.org/_images/categorical_36_0.png)
 Women and children first!
+
+![Survival rate accross classes per sex](https://seaborn.pydata.org/_images/categorical_36_0.png)
+
 
 ## Cleaning the data
 In this notebook, we won't use some of the variables such as `home.dest`, `embarked` or `cabin`. To do so we will drop:
