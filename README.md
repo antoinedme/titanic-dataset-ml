@@ -12,11 +12,11 @@ A disproportionate number of men were left aboard because of a "women and childr
 This dataset describes the survival status of individual passengers on the Titanic, it has 1309 entries accross 10 variables:
 - `survived`: 0 = No, 1 = Yes. **(As we can see on the table above `survived` mean, 38,19% of passengers survived)**
 
-- `pclass`: Ticket category from first to third class. **(First class fare: 87.50, Second Class: 21.17, Third Class: 13.29)**
-- `fare`: Passenger fare
+- `pclass`: Ticket category from first to third class. 
+- `fare`: Passenger fare (First class fare: 87.50, Second Class: 21.17, Third Class: 13.29)
 - `ticket`: Passenger ticket number
 
-- Demographics: `Sex`, `Age`
+- Demographics: `Sex` (466 females and 843 males), `Age` (Median age of 27 years old)
 - `sibsp`, `parch`: Number of siblings or spouses aboard, number of parents or children aboard
 
 - `cabin`: Cabin number, `embarked`: Port of embarkation; C = Cherbourg, Q = Queenstown, S = Southampton
@@ -49,6 +49,32 @@ Then we will fill in the missing variables in `fare` (1 missing) and `age`(263 m
 `titanic['age'] = titanic.groupby('sex')['age'].apply(lambda x: x.fillna(x.median()))`
 
 ## Split the dataset for training and testing
+
+For the following, I will use Scikit-Learn:
+Install the scikit-learn - Machine Learning in Python: `conda install -c intel scikit-learn`
+- Simple and efficient tools for predictive data analysis
+- Built on NumPy, SciPy, and matplotlib Link: https://scikit-learn.org/stable/
+
+The library: `from sklearn.model_selection import train_test_split`
+
+We separate the table into:
+
+`X = iceberg.drop(['survived'],axis=1)
+y = iceberg['survived']`
+
+Dividing the table into training and testing sets:
+
+`X_train, X_test, y_train, y_test = train_test_split(X,y,test_size=0.3,random_state=67)`
+
+## Applying Logistic Regression
+
+`from sklearn import linear_model`
+`from sklearn.linear_model import LogisticRegression`
+
+
+
+![Logistic regression example](https://miro.medium.com/max/744/1*zfH9946AssCx4vzjaizWeg.png)
+
 
 Visit the notebook here: https://github.com/antoinedme/titanic-dataset-ml/blob/master/Titanic-MachineLearning.ipynb
 
