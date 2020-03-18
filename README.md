@@ -112,6 +112,40 @@ The `predictions` is: array([0, …, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 1, 0, 0, 0
 
 Now the model is implemented and trained, we can switch to the next part.
 
+## Evaluate the model
+
+In contrast to linear regression, logistic regression does not produce an 𝑅2 score by which we can assess the accuracy of our model. In order to evaluate that, we will use a classification report, a confusion matrix, and the accuracy score. We import the related tools from sklearn.metrics:
+
+```
+from sklearn.metrics import classification_report, confusion_matrix, accuracy_score
+```
+In logistic regression, the response variable describes the probability that the outcome is the positive case. If the response variable is equal to or exceeds a discrimination threshold, the positive class is predicted; otherwise, the negative class is predicted. The response variable is modelled as a function of a linear combination of the explanatory variables using the logistic function. Given by the following equation, the logistic function always returns a value between zero and one: 
+
+```
+print(accuracy_score(y_test,predictions))
+print(classification_report(y_test,predictions))
+```
+Output: 0.7582697201017812. The accuracy score is 76%.
+
+## Generate our Jack and Rose couple
+
+```
+jack = [3, 27, 0, 8,  1]
+rose = [1, 22, 1, 60, 0]
+```
+
+```
+people = pd.DataFrame(np.array([jack, rose]), columns=['pclass', 'age', 'parch', 'fare','sex_is_male'])
+```
+
+```
+survival = lr.predict(people)
+```
+
+
+
+
+
 Visit the notebook here: https://github.com/antoinedme/titanic-dataset-ml/blob/master/Titanic-MachineLearning.ipynb
 
 thank you very much, 
