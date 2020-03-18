@@ -14,22 +14,20 @@ A disproportionate number of men were left aboard because of a "women and childr
 
 ## Exploring the Passengers dataset entries
 
-This dataset describes the survival status of individual passengers on the Titanic, it has 1309 entries accross 10 variables:
-- `survived`: 0 = No, 1 = Yes. **(As we can see on the table above `survived` mean, 38,19% of passengers survived)**
+This dataset describes the survival status of individual passengers on the Titanic. 
 
+![Passengers table](https://user-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,f_auto,h_2000,q_90,w_1200/107158/Screen_Shot_2015-08-03_at_1.57.45_AM_ibp1u8.png)   
+
+The dataset has 1309 entries accross 10 variables:
+- `survived`: 0 = No, 1 = Yes. (As we can see on the table above `survived` mean, 38,19% of passengers survived)
 - `pclass`: Ticket category from first to third class. 
 - `fare`: Passenger fare (First class fare: 87.50, Second Class: 21.17, Third Class: 13.29)
 - `ticket`: Passenger ticket number
-
 - Demographics: `Sex` (466 females and 843 males), `Age` (Median age of 27 years old)
 - `sibsp`, `parch`: Number of siblings or spouses aboard, number of parents or children aboard
-
 - `cabin`: Cabin number, `embarked`: Port of embarkation; C = Cherbourg, Q = Queenstown, S = Southampton
 
-
-In 1912, skilled shipyard workers who built Titanic earned £2 ($10) per week. Unskilled workers earned £1 or less per week. A single First Class berth would cost these workers 4 to 8 months wages. $100 in 1912 → $2,667 in 2020
-
-![Passengers table](https://user-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,f_auto,h_2000,q_90,w_1200/107158/Screen_Shot_2015-08-03_at_1.57.45_AM_ibp1u8.png)   
+*Note: In 1912, skilled shipyard workers who built Titanic earned £2 ($10) per week. Unskilled workers earned £1 or less per week. A single First Class berth would cost these workers 4 to 8 months wages. $100 in 1912 → $2,667 in 2020*
 
 ## Analysing the data
 
