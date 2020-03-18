@@ -60,7 +60,7 @@ titanic['fare'] = titanic.groupby('pclass')['fare'].apply(lambda x: x.fillna(x.m
 titanic['age'] = titanic.groupby('sex')['age'].apply(lambda x: x.fillna(x.median()))
 ```
 
-## Split the dataset for training and testing
+## Splitting the dataset for training and testing
 
 For the following, I will use Scikit-Learn:
 Install the scikit-learn - Machine Learning in Python: `conda install -c intel scikit-learn`
