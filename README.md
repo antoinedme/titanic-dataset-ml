@@ -29,10 +29,10 @@ In 1912, skilled shipyard workers who built Titanic earned £2 ($10) per week. U
 ## Analysing the data
 
 Survival probability: for women on 1st class is: 96,5% compared to men only 34,1% When we look at the 3rd class, the probability drops to 49,1% for women and 15,2% for men. 
-
-`exploratory.groupby(['sex_is_male','pclass'])['survived'].mean()`
-
-`graph = sns.catplot(x="sex_is_male", y="survived", hue="pclass", kind="bar", palette="muted", data=exploratory)`
+```
+exploratory.groupby(['sex_is_male','pclass'])['survived'].mean()
+graph = sns.catplot(x="sex_is_male", y="survived", hue="pclass", kind="bar", palette="muted", data=exploratory)
+```
 
 Women and children first!
 
@@ -42,13 +42,16 @@ Women and children first!
 ## Cleaning the data
 In this notebook, we won't use some of the variables such as `home.dest`, `embarked` or `cabin`. To do so we will drop:
 
-`titanic.drop(['name','body','boat','cabin','ticket','embarked','home.dest'],axis=1,inplace=True)`
+```
+titanic.drop(['name','body','boat','cabin','ticket','embarked','home.dest'],axis=1,inplace=True)
+```
 
 Then we will fill in the missing variables in `fare` (1 missing) and `age`(263 missing) using the median values:
 
-`titanic['fare'] = titanic.groupby('pclass')['fare'].apply(lambda x: x.fillna(x.median()))`
-
-`titanic['age'] = titanic.groupby('sex')['age'].apply(lambda x: x.fillna(x.median()))`
+```
+titanic['fare'] = titanic.groupby('pclass')['fare'].apply(lambda x: x.fillna(x.median()))
+titanic['age'] = titanic.groupby('sex')['age'].apply(lambda x: x.fillna(x.median()))
+```
 
 ## Split the dataset for training and testing
 
@@ -61,17 +64,23 @@ The library: `from sklearn.model_selection import train_test_split`
 
 We separate the table into:
 
-`X = iceberg.drop(['survived'],axis=1)
-y = iceberg['survived']`
+```
+X = iceberg.drop(['survived'],axis=1)
+y = iceberg['survived']
+```
 
 Dividing the table into training and testing sets:
 
-`X_train, X_test, y_train, y_test = train_test_split(X,y,test_size=0.3,random_state=67)`
+```
+X_train, X_test, y_train, y_test = train_test_split(X,y,test_size=0.3,random_state=67)
+```
 
 ## Applying Logistic Regression
 
-`from sklearn import linear_model`
-`from sklearn.linear_model import LogisticRegression`
+```
+from sklearn import linear_model
+from sklearn.linear_model import LogisticRegression
+```
 
 
 
