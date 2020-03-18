@@ -31,11 +31,14 @@ The dataset has 1309 entries accross 10 variables:
 
 ## Analysing the data
 
-Survival probability: for women on 1st class is: 96,5% compared to men only 34,1% When we look at the 3rd class, the probability drops to 49,1% for women and 15,2% for men. 
+We will start by grouping the survival data per sex and class. To do so we will use the basic `groupby` function on our whole dataset, and use `seaborn`, the Python data visualization library based on matplotlib, that actually already uses this specific dataset in its `catplot` example:
+
 ```
 exploratory.groupby(['sex_is_male','pclass'])['survived'].mean()
 graph = sns.catplot(x="sex_is_male", y="survived", hue="pclass", kind="bar", palette="muted", data=exploratory)
 ```
+
+Survival probability: for women on 1st class is: 96,5% compared to men only 34,1% When we look at the 3rd class, the probability drops to 49,1% for women and 15,2% for men. 
 
 Women and children first!
 
