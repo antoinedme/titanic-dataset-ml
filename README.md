@@ -69,14 +69,14 @@ Install the scikit-learn - Machine Learning in Python: `conda install -c intel s
 
 The library: `from sklearn.model_selection import train_test_split`
 
-We separate the table into:
+We first prepare our dataset into two variables `X` and `y`.The `X` variable is the whole dataframe without the `survived` parameter. That means all passengers variables are there, without knowing if they died or survived the tragedy. The `y` is the target `survived` 0/1 we wan't to know. 
 
 ```
 X = iceberg.drop(['survived'],axis=1)
 y = iceberg['survived']
 ```
 
-Dividing the table into training and testing sets:
+We will now split our data (can be: pandas dataframe, numpy arrays, lists) into random train and test subsets. For this function we need to define few parameters: `random_state`, the seed used by the random number generator, and `test_size`, the proportion of the dataset to include in the test split, here 30% of the total dataset of 1309 entries:
 
 ```
 X_train, X_test, y_train, y_test = train_test_split(X,y,test_size=0.3,random_state=67)
