@@ -46,7 +46,7 @@ Survival probability: for women on 1st class is: 96,5% compared to men only 34,1
 
 Women and children first!
 
-![Survival rate accross classes per sex](https://seaborn.pydata.org/_images/categorical_36_0.png)
+![Survival rate accross classes per sex](https://raw.githubusercontent.com/antoinedme/titanic-dataset-ml/master/img/survival-analysis.png)
 
 
 ## Cleaning the data
@@ -110,13 +110,13 @@ lr.fit(X_train,y_train)
 predictions = lr.predict(X_test)
 ```
 
-![Logistic regression example](https://raw.githubusercontent.com/antoinedme/titanic-dataset-ml/master/img/regression-illustrated.png)
+![Logistic regression example](https://raw.githubusercontent.com/antoinedme/titanic-dataset-ml/master/img/regression-illus.png)
 
 The `predictions` is: array([0, …, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 1, 0, 0, 0, 0, 0])
 
 Now the model is implemented and trained, we can switch to the next part.
 
-## Evaluate the model
+## Evaluating the model
 
 In contrast to linear regression, logistic regression does not produce an 𝑅2 score by which we can assess the accuracy of our model. In order to evaluate that, we will use a classification report, a confusion matrix, and the accuracy score. We import the related tools from sklearn.metrics:
 
@@ -131,10 +131,11 @@ print(classification_report(y_test,predictions))
 ```
 Output: 0.7582697201017812. The accuracy score is 76%.
 
-## Generate our Jack and Rose couple
+## What about Jack and Rose?
 
-What about Jack and Rose?
-In 1912 Southampton, 17-year-old first-class passenger Rose DeWitt Bukater, her fiancé Cal Hockley, and her mother Ruth board the luxurious Titanic. Ruth emphasizes that Rose's marriage will resolve their family's financial problems and allow them to retain their upper-class status. Distraught over the engagement, Rose climbs over the stern and contemplates suicide; Jack Dawson, a penniless artist, intervenes and discourages her. Discovered with Jack, Rose tells a concerned Cal that she was peering over the edge and Jack saved her from falling. When Cal becomes indifferent, she suggests to him that Jack deserves a reward. He invites Jack to dine with them in first-class the following night. Jack and Rose develop a tentative friendship, despite Cal and Ruth being wary of him. Following dinner, Rose secretly joins Jack at a party in third class. 
+In 1912 Southampton, 17-year-old first-class passenger Rose DeWitt Bukater, her fiancé Cal Hockley, and her mother Ruth board the luxurious Titanic. Ruth emphasizes that Rose's marriage will resolve their family's financial problems and allow them to retain their upper-class status. Distraught over the engagement, Rose climbs over the stern and contemplates suicide; Jack Dawson, a penniless artist, intervenes and discourages her. Discovered with Jack, Rose tells a concerned Cal that she was peering over the edge and Jack saved her from falling. 
+
+Jack and Rose develop a tentative friendship, despite Cal and Ruth being wary of him. Following dinner, Rose secretly joins Jack at a party in third class. 
 
 ![Jack attributes](https://raw.githubusercontent.com/antoinedme/titanic-dataset-ml/master/img/couple.png)
 
@@ -145,7 +146,11 @@ Let's create the data for our lovely couple (we will follow the structure: class
 survival = lr.predict(pd.DataFrame(np.array([jack, rose]), columns=['pclass', 'age', 'parch', 'fare','sex_is_male']))
 ```
 
-After braving several obstacles, Jack and Rose return to the boat deck. The lifeboats have departed and passengers are falling to their deaths as the stern rises out of the water. The ship breaks in half, dropping the stern into the water. Jack and Rose ride it into the ocean and he helps her onto a wooden panel buoyant enough for only one person. He assures her that she will die an old woman, warm in her bed. Jack dies of hypothermia but Rose is saved. 
+After braving several obstacles, Jack and Rose return to the boat deck. The lifeboats have departed and passengers are falling to their deaths as the stern rises out of the water. The ship breaks in half, dropping the stern into the water. Jack and Rose ride it into the ocean and he helps her onto a wooden panel buoyant enough for only one person. He assures her that she will die an old woman, warm in her bed. 
+
+Jack dies of hypothermia but Rose is saved. 
+
+And the results from predictions are:
 
 ![Results](https://raw.githubusercontent.com/antoinedme/titanic-dataset-ml/master/img/results.png)
 
