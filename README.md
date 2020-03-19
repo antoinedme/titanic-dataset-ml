@@ -110,7 +110,7 @@ lr.fit(X_train,y_train)
 predictions = lr.predict(X_test)
 ```
 
-![Logistic regression example](https://miro.medium.com/max/744/1*zfH9946AssCx4vzjaizWeg.png)
+![Logistic regression example](https://raw.githubusercontent.com/antoinedme/titanic-dataset-ml/master/img/regression-illustrated.png)
 
 The `predictions` is: array([0, …, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 1, 0, 0, 0, 0, 0])
 
