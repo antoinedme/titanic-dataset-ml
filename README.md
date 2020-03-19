@@ -1,7 +1,12 @@
-# Titanic dataset discovery
+# Can A.I. save Jack from the Titanic?
+Creative Coding
+Antoine de Marassé
+www.linkedin.com/in/hiantoine
 
-Visit the notebook here: https://github.com/antoinedme/titanic-dataset-ml/blob/master/Titanic-MachineLearning.ipynb
+![Opening Antoine de Marasse](hhttps://raw.githubusercontent.com/antoinedme/titanic-dataset-ml/master/img/opening-image.png)   
 
+You can read the following work or directly access the Jupyter Notebook: 
+https://github.com/antoinedme/titanic-dataset-ml/blob/master/Titanic-MachineLearning.ipynb
 
 
 ## History of the RMS Titanic passenger liner
