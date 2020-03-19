@@ -46,7 +46,7 @@ Survival probability: for women on 1st class is: 96,5% compared to men only 34,1
 
 Women and children first!
 
-![Survival rate accross classes per sex](https://seaborn.pydata.org/_images/categorical_36_0.png)
+![Survival rate accross classes per sex](https://raw.githubusercontent.com/antoinedme/titanic-dataset-ml/master/img/survival-analysis.png)
 
 
 ## Cleaning the data
@@ -146,6 +146,8 @@ survival = lr.predict(pd.DataFrame(np.array([jack, rose]), columns=['pclass', 'a
 ```
 
 After braving several obstacles, Jack and Rose return to the boat deck. The lifeboats have departed and passengers are falling to their deaths as the stern rises out of the water. The ship breaks in half, dropping the stern into the water. Jack and Rose ride it into the ocean and he helps her onto a wooden panel buoyant enough for only one person. He assures her that she will die an old woman, warm in her bed. Jack dies of hypothermia but Rose is saved. 
+
+And the results from predictions are:
 
 ![Results](https://raw.githubusercontent.com/antoinedme/titanic-dataset-ml/master/img/results.png)
 
