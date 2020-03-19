@@ -1,7 +1,5 @@
 # Can A.I. save Jack from the Titanic?
-Creative Coding
-Antoine de Marassé
-www.linkedin.com/in/hiantoine
+Creative Coding, Antoine de Marassé: www.linkedin.com/in/hiantoine
 
 ![Opening Antoine de Marasse](https://raw.githubusercontent.com/antoinedme/titanic-dataset-ml/master/img/opening-image.png)   
 
