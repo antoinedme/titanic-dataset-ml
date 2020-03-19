@@ -3,7 +3,7 @@ Creative Coding
 Antoine de Marassé
 www.linkedin.com/in/hiantoine
 
-![Opening Antoine de Marasse](hhttps://raw.githubusercontent.com/antoinedme/titanic-dataset-ml/master/img/opening-image.png)   
+![Opening Antoine de Marasse](https://raw.githubusercontent.com/antoinedme/titanic-dataset-ml/master/img/opening-image.png)   
 
 You can read the following work or directly access the Jupyter Notebook: 
 https://github.com/antoinedme/titanic-dataset-ml/blob/master/Titanic-MachineLearning.ipynb
