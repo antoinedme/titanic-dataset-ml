@@ -154,6 +154,34 @@ And the results from predictions are:
 
 ![Results](https://raw.githubusercontent.com/antoinedme/titanic-dataset-ml/master/img/results.png)
 
+Wait is there something more we can do?
+
+## Applying Decision Tree
+
+We will now still try to save Jack by discussing a simple, nonlinear model for classification and regression tasks: the decision tree.
+
+```
+from sklearn import tree
+tr = tree.DecisionTreeClassifier()
+tr.fit(X_train, y_train)
+tr_predictions = tr.predict(X_test)
+print(accuracy_score(y_test,tr_predictions))
+```
+
+![Jack attributes](https://raw.githubusercontent.com/antoinedme/titanic-dataset-ml/master/img/decision-tree-illustration.png)
+
+
+Output: 0.7150127226463104. The accuracy score is 71,5%.
+
+Let's try this now with Jack and Rose data.
+
+And the results from predictions are:
+
+![Results](https://raw.githubusercontent.com/antoinedme/titanic-dataset-ml/master/img/results.png)
+
+
+
+
 
 
 Visit the notebook here: https://github.com/antoinedme/titanic-dataset-ml/blob/master/Titanic-MachineLearning.ipynb
