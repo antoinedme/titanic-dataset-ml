@@ -3,7 +3,7 @@ Creative Coding, Antoine de Marassé: www.linkedin.com/in/hiantoine
 
 ![Opening Antoine de Marasse](https://raw.githubusercontent.com/antoinedme/titanic-dataset-ml/master/img/opening-image.png)   
 
-You can read the following work or directly access the Jupyter Notebook: 
+Access all the code on the Juypter Notebook (Python): 
 
 https://github.com/antoinedme/titanic-dataset-ml/blob/master/Titanic-MachineLearning.ipynb
 
@@ -183,11 +183,14 @@ It looks like both `logistic regression` and `decision tree` methods can't save 
 
 Unless...
 
-https://www.youtube.com/watch?v=iphqRPaaeP8
+Click this link for an alternate Titanic ending: https://www.youtube.com/watch?v=iphqRPaaeP8
 
 ![https://www.youtube.com/watch?v=iphqRPaaeP8](https://i.ytimg.com/vi/iphqRPaaeP8/hqdefault.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLBEajhYMVADTHT3lAy-vBs8Xz3AWQ")
 
-Visit the notebook here: https://github.com/antoinedme/titanic-dataset-ml/blob/master/Titanic-MachineLearning.ipynb
+
+Access all the code on the Juypter Notebook (Python): 
+
+https://github.com/antoinedme/titanic-dataset-ml/blob/master/Titanic-MachineLearning.ipynb
 
 thank you very much, 
 by Antoine de Marassé
