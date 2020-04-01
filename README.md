@@ -185,12 +185,16 @@ Unless...
 
 Click this link for an alternate Titanic ending: https://www.youtube.com/watch?v=iphqRPaaeP8
 
-![https://www.youtube.com/watch?v=iphqRPaaeP8](https://i.ytimg.com/vi/iphqRPaaeP8/hqdefault.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLBEajhYMVADTHT3lAy-vBs8Xz3AWQ")
+![Ending](https://raw.githubusercontent.com/antoinedme/titanic-dataset-ml/master/img/ending.png)
 
+Video Credits: https://www.youtube.com/billycrammer
+on  VJ4rawr2 Youtube Channel: https://www.youtube.com/watch?v=iphqRPaaeP8
+
+thank you very much, 
+by Antoine de Marassé
 
 Access all the code on the Juypter Notebook (Python): 
 
 https://github.com/antoinedme/titanic-dataset-ml/blob/master/Titanic-MachineLearning.ipynb
 
-thank you very much, 
-by Antoine de Marassé
+
