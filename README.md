@@ -179,9 +179,13 @@ And the results from predictions are:
 
 ![Results](https://raw.githubusercontent.com/antoinedme/titanic-dataset-ml/master/img/results.png)
 
+It looks like both `logistic regression` and `decision tree` methods can't save our Jack!
 
+Unless...
 
+https://www.youtube.com/watch?v=iphqRPaaeP8
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/iphqRPaaeP8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 Visit the notebook here: https://github.com/antoinedme/titanic-dataset-ml/blob/master/Titanic-MachineLearning.ipynb
