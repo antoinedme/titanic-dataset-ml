@@ -185,8 +185,7 @@ Unless...
 
 https://www.youtube.com/watch?v=iphqRPaaeP8
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/iphqRPaaeP8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+![https://www.youtube.com/watch?v=iphqRPaaeP8](https://i.ytimg.com/vi/iphqRPaaeP8/hqdefault.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLBEajhYMVADTHT3lAy-vBs8Xz3AWQ")
 
 Visit the notebook here: https://github.com/antoinedme/titanic-dataset-ml/blob/master/Titanic-MachineLearning.ipynb
 
