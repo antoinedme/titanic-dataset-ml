@@ -185,7 +185,7 @@ Unless...
 
 Click this link for an alternate Titanic ending: https://www.youtube.com/watch?v=iphqRPaaeP8
 
-![Ending](https://raw.githubusercontent.com/antoinedme/titanic-dataset-ml/master/img/ending.png)
+![Ending](https://raw.githubusercontent.com/antoinedme/titanic-dataset-ml/master/img/youtube-video.png)
 
 Video Credits: https://www.youtube.com/billycrammer
 on  VJ4rawr2 Youtube Channel: https://www.youtube.com/watch?v=iphqRPaaeP8
