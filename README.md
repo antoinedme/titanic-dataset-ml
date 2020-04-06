@@ -179,6 +179,11 @@ And the results from predictions are:
 
 ![Results](https://raw.githubusercontent.com/antoinedme/titanic-dataset-ml/master/img/results.png)
 
+Jack dies again!
+
+
+## Final remarks 
+
 At 11:40 p.m. (ship's time) on 14 April, lookout Frederick Fleet spotted an iceberg immediately ahead of Titanic and alerted the bridge. First Officer William Murdoch ordered the ship to be steered around the obstacle and the engines to be stopped, but it was too late; the starboard side of Titanic struck the iceberg, creating a series of holes below the waterline. It soon became clear that the ship was doomed, as she could not survive more than four compartments being flooded. Titanic began sinking bow-first, with water spilling from compartment to compartment as her angle in the water became steeper. Third-class passengers were largely left to fend for themselves, causing many of them to become trapped below decks as the ship filled with water. The "women and children first" protocol was generally followed when loading the lifeboats, and most of the male passengers and crew were left aboard. 
 
 It looks like both `logistic regression` and `decision tree` methods can't save our Jack! The vertical stern of the ship plunges down shrieking and groaning, with bodies falling hundreds of feet down toward churning water. Some fans will never let go of the possibility that there was room enough for both Jack and Rose on that door at the end of Titanic. Director James Cameron has an explanation for them that doesn’t involve physics, but rather art. “Had he lived, the ending of the film would have been meaningless,” he said in a recent Vanity Fair interview. “The film is about death and separation; he had to die.”
