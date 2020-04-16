@@ -7,14 +7,14 @@ Creative Coding, Antoine de Marassé: www.linkedin.com/in/hiantoine
 Hi there, welcome on this fun Machine Learning introduction example. In this Python Notebook I play around with the RMS Titanic passenger's dataset and apply a bit of this so called "Artificial Intelligence". The different sections are:
 - [History of the RMS Titanic passenger liner](https://github.com/antoinedme/titanic-dataset-ml#history-of-the-rms-titanic-passenger-liner)
 - [Exploring the Passengers dataset entries](https://github.com/antoinedme/titanic-dataset-ml#exploring-the-passengers-dataset-entries)
-- [Analysing the data](https://github.com/antoinedme/titanic-dataset-ml#analysing-the-data)
-- [Cleaning the data](https://github.com/antoinedme/titanic-dataset-ml#cleaning-the-data)
+- [Analysing the data](https://github.com/antoinedme/titanic-dataset-ml#analysing-the-data) (more having a look and trying to analyse correlation of parameters and to plot simple stuffs)
+- [Cleaning the data](https://github.com/antoinedme/titanic-dataset-ml#cleaning-the-data) (basic cleaning, no real process here)
 - [Splitting the dataset for training and testing](https://github.com/antoinedme/titanic-dataset-ml#splitting-the-dataset-for-training-and-testing)
 - [Applying Logistic Regression](https://github.com/antoinedme/titanic-dataset-ml#applying-logistic-regression)
 - [Evaluating the model](https://github.com/antoinedme/titanic-dataset-ml#evaluating-the-model)
 - [What about Jack and Rose?](https://github.com/antoinedme/titanic-dataset-ml#what-about-jack-and-rose)
 - [Applying Decision Tree](https://github.com/antoinedme/titanic-dataset-ml#applying-decision-tree)
-- [Final remarks](https://github.com/antoinedme/titanic-dataset-ml#final-remarks)
+- [Final remarks](https://github.com/antoinedme/titanic-dataset-ml#final-remarks) (wait, there's a surprise here!)
 
 Directly access all the code on the Juypter Notebook (Python): 
 
