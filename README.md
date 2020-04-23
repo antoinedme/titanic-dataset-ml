@@ -16,7 +16,7 @@ Hi there, welcome on this fun Machine Learning introduction example. In this Pyt
 - [Applying Decision Tree](https://github.com/antoinedme/titanic-dataset-ml#applying-decision-tree)
 - [Final remarks](https://github.com/antoinedme/titanic-dataset-ml#final-remarks) (wait, there's a surprise here!)
 
-Directly access all the code on the Juypter Notebook (Python): 
+Directly access all the code on the Jupyter Notebook (Python): 
 
 https://github.com/antoinedme/titanic-dataset-ml/blob/master/Titanic-MachineLearning.ipynb
 
@@ -215,7 +215,7 @@ on  VJ4rawr2 Youtube Channel: https://www.youtube.com/watch?v=iphqRPaaeP8
 thank you very much, 
 by Antoine de Marassé
 
-Access all the code on the Juypter Notebook (Python): 
+Access all the code on the Jupyter Notebook (Python): 
 
 https://github.com/antoinedme/titanic-dataset-ml/blob/master/Titanic-MachineLearning.ipynb
 
