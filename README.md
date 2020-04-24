@@ -1,10 +1,14 @@
 # Can A.I. save Jack from the Titanic?
-Creative Coding, Antoine de Marassé: www.linkedin.com/in/hiantoine
+
+Author: *Antoine de Marassé* https://www.linkedin.com/in/hiantoine/
+
+Based on: Microsoft Azure (data science masterclass), Kaggle, Pandas, Sci-kit Learn and Seaborn
+
+This notebook is a simple example where I incorporate both historical and fictionalized aspects from the 1997 epic romance and disaster movie directed by James Cameron, starring Leonardo DiCaprio and Kate Winslet. The RMS Titanic dataset is quite popular online and is a typical dataset used to make 'computer' understand patterns: Machine Learning. 
 
 ![Opening Antoine de Marasse](https://raw.githubusercontent.com/antoinedme/titanic-dataset-ml/master/img/opening-image.png)   
 
-
-Hi there, welcome on this fun Machine Learning introduction example. In this Python Notebook I play around with the RMS Titanic passenger's dataset and apply a bit of this so called "Artificial Intelligence". The different sections are:
+Contents:
 - [History of the RMS Titanic passenger liner](https://github.com/antoinedme/titanic-dataset-ml#history-of-the-rms-titanic-passenger-liner)
 - [Exploring the Passengers dataset entries](https://github.com/antoinedme/titanic-dataset-ml#exploring-the-passengers-dataset-entries)
 - [Analysing the data](https://github.com/antoinedme/titanic-dataset-ml#analysing-the-data) (more having a look and trying to analyse correlation of parameters and to plot simple stuffs)
