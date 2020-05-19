@@ -24,6 +24,9 @@ Directly access all the code on the Jupyter Notebook (Python):
 
 https://github.com/antoinedme/titanic-dataset-ml/blob/master/Titanic-MachineLearning.ipynb
 
+The deck of slides: 
+https://drive.google.com/file/d/1IdNF3zSMvRj5gbuYC7UgiBS8uOOYoeAH/view?usp=sharing
+
 Let's get started!
 
 
