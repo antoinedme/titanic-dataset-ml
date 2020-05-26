@@ -6,7 +6,7 @@ Based on: Microsoft Azure (data science masterclass), Kaggle, Pandas, Sci-kit Le
 
 This notebook is a simple example where I incorporate both historical and fictionalized aspects from the 1997 epic romance and disaster movie directed by James Cameron, starring Leonardo DiCaprio and Kate Winslet. The RMS Titanic dataset is quite popular online and is a typical dataset used to make 'computer' understand patterns: Machine Learning. 
 
-![Opening Antoine de Marasse](https://raw.githubusercontent.com/antoinedme/titanic-dataset-ml/master/img/opening-image.png)   
+![Opening Antoine de Marasse](https://raw.githubusercontent.com/antoinedme/titanic-dataset-ml/master/ressources/img/opening-image.png)   
 
 Contents:
 - [History of the RMS Titanic passenger liner](https://github.com/antoinedme/titanic-dataset-ml#history-of-the-rms-titanic-passenger-liner)
@@ -68,7 +68,7 @@ Survival probability: for women on 1st class is: 96,5% compared to men only 34,1
 
 Women and children first!
 
-![Survival rate accross classes per sex](https://raw.githubusercontent.com/antoinedme/titanic-dataset-ml/master/img/survival-analysis.png)
+![Survival rate accross classes per sex](https://raw.githubusercontent.com/antoinedme/titanic-dataset-ml/master/ressources/img/survival-analysis.png)
 
 
 ## Cleaning the data
@@ -132,7 +132,7 @@ lr.fit(X_train,y_train)
 predictions = lr.predict(X_test)
 ```
 
-![Logistic regression example](https://raw.githubusercontent.com/antoinedme/titanic-dataset-ml/master/img/regression-illus.png)
+![Logistic regression example](https://raw.githubusercontent.com/antoinedme/titanic-dataset-ml/master/ressources/img/regression-illus.png)
 
 The `predictions` is: array([0, …, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 1, 0, 0, 0, 0, 0])
 
@@ -159,7 +159,7 @@ In 1912 Southampton, 17-year-old first-class passenger Rose DeWitt Bukater, her 
 
 Jack and Rose develop a tentative friendship, despite Cal and Ruth being wary of him. Following dinner, Rose secretly joins Jack at a party in third class. 
 
-![Jack attributes](https://raw.githubusercontent.com/antoinedme/titanic-dataset-ml/master/img/couple.png)
+![Jack attributes](https://raw.githubusercontent.com/antoinedme/titanic-dataset-ml/master/ressources/img/couple.png)
 
 
 Let's create the data for our lovely couple (we will follow the structure: class, age, parents on board, fare, sex): Jack is on third class, around 27 years old, alone on board, only paid 8$ and is a male `jack = [3, 27, 0, 8,  1]`, and rose is on first class, around 22 years old, with family and paid 60$ `rose = [1, 22, 1, 60, 0]`.
@@ -174,7 +174,7 @@ Jack dies of hypothermia but Rose is saved.
 
 And the results from predictions are:
 
-![Results](https://raw.githubusercontent.com/antoinedme/titanic-dataset-ml/master/img/results.png)
+![Results](https://raw.githubusercontent.com/antoinedme/titanic-dataset-ml/master/ressources/img/results.png)
 
 Wait is there something more we can do?
 
@@ -190,7 +190,7 @@ tr_predictions = tr.predict(X_test)
 print(accuracy_score(y_test,tr_predictions))
 ```
 
-![Jack attributes](https://raw.githubusercontent.com/antoinedme/titanic-dataset-ml/master/img/decision-tree-illustration.png)
+![Jack attributes](https://raw.githubusercontent.com/antoinedme/titanic-dataset-ml/master/ressources/img/decision-tree-illustration.png)
 
 
 Output: 0.7150127226463104. The accuracy score is 71,5%.
@@ -199,7 +199,7 @@ Let's try this now with Jack and Rose data.
 
 And the results from predictions are:
 
-![Results](https://raw.githubusercontent.com/antoinedme/titanic-dataset-ml/master/img/results.png)
+![Results](https://raw.githubusercontent.com/antoinedme/titanic-dataset-ml/master/ressources/img/results.png)
 
 Jack dies again!
 
@@ -214,7 +214,7 @@ Unless...
 
 Click this link for an alternate Titanic ending: https://www.youtube.com/watch?v=iphqRPaaeP8
 
-![Ending](https://raw.githubusercontent.com/antoinedme/titanic-dataset-ml/master/img/youtube-video.png)
+![Ending Video](https://raw.githubusercontent.com/antoinedme/titanic-dataset-ml/master/ressources/img/youtube-video.png)
 
 Video Credits: https://www.youtube.com/billycrammer
 on  VJ4rawr2 Youtube Channel: https://www.youtube.com/watch?v=iphqRPaaeP8
