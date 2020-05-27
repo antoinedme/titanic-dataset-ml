@@ -225,8 +225,3 @@ Thank you very much,
 
 By *Antoine de Marassé* https://www.linkedin.com/in/hiantoine/
 
-
-
-Access all the code on the Jupyter Notebook (Python): 
-
-https://github.com/antoinedme/titanic-dataset-ml/blob/master/Titanic-MachineLearning.ipynb
