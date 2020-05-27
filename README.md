@@ -221,16 +221,12 @@ Click this link for an alternate Titanic ending: https://www.youtube.com/watch?v
 
 
 
-thank you very much, 
+Thank you very much, 
 
-by *Antoine de Marassé* https://www.linkedin.com/in/hiantoine/
-
-
+By *Antoine de Marassé* https://www.linkedin.com/in/hiantoine/
 
 
 
 Access all the code on the Jupyter Notebook (Python): 
 
 https://github.com/antoinedme/titanic-dataset-ml/blob/master/Titanic-MachineLearning.ipynb
-
-
