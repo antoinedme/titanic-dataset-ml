@@ -216,11 +216,18 @@ Click this link for an alternate Titanic ending: https://www.youtube.com/watch?v
 
 ![Ending Video](https://raw.githubusercontent.com/antoinedme/titanic-dataset-ml/master/ressources/img/youtube-video.png)
 
-Video Credits: https://www.youtube.com/billycrammer
-on  VJ4rawr2 Youtube Channel: https://www.youtube.com/watch?v=iphqRPaaeP8
+
+
+
+
 
 thank you very much, 
-by Antoine de Marassé
+
+by *Antoine de Marassé* https://www.linkedin.com/in/hiantoine/
+
+
+
+
 
 Access all the code on the Jupyter Notebook (Python): 
 
