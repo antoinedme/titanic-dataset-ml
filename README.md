@@ -1,6 +1,6 @@
 # Can A.I. save Jack from the Titanic?
 
-Author: *Antoine de Marassé* https://www.linkedin.com/in/hiantoine/
+Author: *Antoine de Marassé-Enouf* https://www.linkedin.com/in/hiantoine/
 
 Based on: Microsoft Azure (data science masterclass), Kaggle, Pandas, Sci-kit Learn and Seaborn
 
